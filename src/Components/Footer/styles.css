@@ -1,0 +1,10 @@
+.footer {
+  position: relative;
+  width: 100%;
+  background: magenta;
+  margin-top: auto;
+}
+
+.footerContent {
+  padding: 16px;
+}
