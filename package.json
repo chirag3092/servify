@@ -16,7 +16,7 @@
     "start": "env-cmd -f ./configs/shaadi/.env react-scripts start",
     "start:servify": "env-cmd -f ./configs/servify/.env react-scripts start",
     "start:shaadi": "env-cmd -f ./configs/shaadi/.env react-scripts start",
-    "build": "react-scripts build",
+    "build": "env-cmd -f ./configs/shaadi/.env react-scripts build && mv build shaadibuild",
     "build:servify": "env-cmd -f ./configs/servify/.env react-scripts build && mv build servifybuild",
     "build:shaadi": "env-cmd -f ./configs/shaadi/.env react-scripts build && mv build shaadibuild",
     "test": "react-scripts test",
